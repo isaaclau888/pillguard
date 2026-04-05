@@ -5,6 +5,19 @@ For me, the answer is yes!
 So here comes PillGuard, a pill dispenser that keeps track of and tells you when to take your pills. 
 This is a completely open-source project. All the 3D parts and the BOM list are put in the folders. You may customise my project. 
 
+## Why this project actually exists
+The reason why this project exists is that the HKDSE 2026 DAT SBA required students to make a  device for medication management and facilitation of medication taking.
+
+Design Problem:
+Design and make a device for medication management and facilitation of medication taking.
+This device must satisfy the following requirements:
+(a) Store at least five different pills separately, allow patients to set different dosages and medication times for each pill, and automatically dispense the required quantity of pills at the right time, for a period of at least one week;
+(b) Provide medication reminders to patients in a variety of ways at a predetermined time until the patient confirms that the medication has been taken;
+(c) Include a function that automatically provides the right amount of water to drink when it is time to take the medicine;
+(d) Add a function that provides practical value to the patients. (For example, properly preserving the medicine.)
+
+But I removed the part (c) feature in this project.
+
 ## How I made it
 Guess how I made it. I made it by using Fusion 360, which is a completely free CAD app for students. The reason why I made this is that I want to make people not hate taking medicine. By using the dispenser, you can interact with it, making it more fun when you're ill. 
 
