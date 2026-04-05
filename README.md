@@ -6,7 +6,7 @@ So here comes PillGuard, a pill dispenser that keeps track of and tells you when
 This is a completely open-source project. All the 3D parts and the BOM list are put in the folders. You may customise my project. 
 
 ## How to build it
-Please print all the 3D parts. First, try placing the bottom part. Then place the middle part with the spinning system. Last but not least, put the cover on top of the bottom part.
+Please print all the 3D parts. First, try placing the bottom part with the HC‑SR04 sensor in. Then place the middle part with the spinning system, the 28BYJ-48 Stepper Motor + ULN2003 Driver and another HC‑SR04 sensor. Last but not least, put the cover on top of the bottom part with the Nextion 5" HMI Touch Screen.
 
 Instructions will be more detailed soon.
 
