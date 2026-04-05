@@ -5,8 +5,8 @@ For me, the answer is yes!
 So here comes PillGuard, a pill dispenser that keeps track of and tells you when to take your pills. 
 This is a completely open-source project. All the 3D parts and the BOM list are put in the folders. You may customise my project. 
 
-## How to build it and assemble them
-To assemble them, please print all the 3D parts. First, try placing the bottom part. Then place the middle part with the spinning system. Last but not least, put the cover on top of the bottom part.
+## How to build it
+Please print all the 3D parts. First, try placing the bottom part. Then place the middle part with the spinning system. Last but not least, put the cover on top of the bottom part.
 
 Instructions will be more detailed soon.
 
