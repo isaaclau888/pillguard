@@ -10,11 +10,11 @@ FILE_DESCRIPTION(
 
 FILE_NAME(
 /* name */ 'PillGuard Bottom.step',
-/* time_stamp */ '2026-04-04T14:13:46+08:00',
+/* time_stamp */ '2026-06-11T16:16:07+08:00',
 /* author */ (''),
 /* organization */ (''),
 /* preprocessor_version */ 'ST-DEVELOPER v20.1',
-/* originating_system */ 'Autodesk Translation Framework v14.24.0.0',
+/* originating_system */ 'Autodesk Translation Framework v15.8.0.0',
 /* authorisation */ '');
 
 FILE_SCHEMA (('AUTOMOTIVE_DESIGN { 1 0 10303 214 3 1 1 }'));
@@ -1055,15 +1055,16 @@ SOLID_ANGLE_UNIT()
 #1011=PRODUCT_DEFINITION_SHAPE('',$,#1014);
 #1012=SHAPE_REPRESENTATION('',(#611),#1005);
 #1013=PRODUCT_DEFINITION_CONTEXT('part definition',#1018,'design');
-#1014=PRODUCT_DEFINITION('PillGuard','PillGuard v6',#1015,#1013);
+#1014=PRODUCT_DEFINITION('PillGuard','PillGuard v10',#1015,#1013);
 #1015=PRODUCT_DEFINITION_FORMATION('',$,#1020);
-#1016=PRODUCT_RELATED_PRODUCT_CATEGORY('PillGuard v6','PillGuard v6',(#1020));
+#1016=PRODUCT_RELATED_PRODUCT_CATEGORY('PillGuard v10','PillGuard v10',
+(#1020));
 #1017=APPLICATION_PROTOCOL_DEFINITION('international standard',
 'automotive_design',2009,#1018);
 #1018=APPLICATION_CONTEXT(
 'Core Data for Automotive Mechanical Design Process');
 #1019=PRODUCT_CONTEXT('part definition',#1018,'mechanical');
-#1020=PRODUCT('PillGuard','PillGuard v6',$,(#1019));
+#1020=PRODUCT('PillGuard','PillGuard v10',$,(#1019));
 #1021=PRESENTATION_STYLE_ASSIGNMENT((#1026));
 #1022=PRESENTATION_STYLE_ASSIGNMENT((#1027));
 #1023=PRESENTATION_STYLE_ASSIGNMENT((#1028));
