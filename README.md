@@ -13,12 +13,12 @@ Instructions will be more detailed soon.
 # Wiring Diagram 
 <img width="5000" height="2852" alt="PillGuard Wiring Diagram" src="https://github.com/user-attachments/assets/5a294efe-fa0a-44d8-9e1d-460cd1e3fa5a" />
 
-Screen: Just follow the diagram.
-DS3231 RTC (Real-Time Clock): VCC -> Breadboard (+) Red Rail, GND -> Breadboard (-) Blue Rail, Trig -> Arduino Mega 2560 Pin 20, Echo -> Arduino Mega 2560 Pin 21
-HC-SR04(Cup Sensor): VCC -> Breadboard (+) Red Rail, GND -> Breadboard (-) Blue Rail, Trig -> Arduino Mega 2560 Pin 22, Echo -> Arduino Mega 2560 Pin 23
-HC-SR04(Pill Drop Sensor): VCC -> Breadboard (+) Red Rail, GND -> Breadboard (-) Blue Rail, Trig -> Arduino Mega 2560 Pin 24, Echo -> Arduino Mega 2560 Pin 25
-ULN2003(Steeper Motor Driver): VCC -> Breadboard (+) Red Rail, GND -> Breadboard (-) Blue Rail, IN1 -> Arduino Mega 2560 Pin 26, IN2 -> Arduino Mega 2560 Pin 27, IN3 -> Arduino Mega 2560 Pin 28, IN4 -> Arduino Mega 2560 Pin 29
-Buzzer: Positive(+) -> Arduino Mega 2560 Pin 30, Negative(-) -> Breadboard (-) Blue Rail
+Screen: Just follow the diagram. <p>
+DS3231 RTC (Real-Time Clock): VCC -> Breadboard (+) Red Rail, GND -> Breadboard (-) Blue Rail, Trig -> Arduino Mega 2560 Pin 20, Echo -> Arduino Mega 2560 Pin 21 <p>
+HC-SR04(Cup Sensor): VCC -> Breadboard (+) Red Rail, GND -> Breadboard (-) Blue Rail, Trig -> Arduino Mega 2560 Pin 22, Echo -> Arduino Mega 2560 Pin 23 <p>
+HC-SR04(Pill Drop Sensor): VCC -> Breadboard (+) Red Rail, GND -> Breadboard (-) Blue Rail, Trig -> Arduino Mega 2560 Pin 24, Echo -> Arduino Mega 2560 Pin 25 <p>
+ULN2003(Steeper Motor Driver): VCC -> Breadboard (+) Red Rail, GND -> Breadboard (-) Blue Rail, IN1 -> Arduino Mega 2560 Pin 26, IN2 -> Arduino Mega 2560 Pin 27, IN3 -> Arduino Mega 2560 Pin 28, IN4 -> Arduino Mega 2560 Pin 29 <p>
+Buzzer: Positive(+) -> Arduino Mega 2560 Pin 30, Negative(-) -> Breadboard (-) Blue Rail 
 
 ## Why this project actually exists
 The reason why this project exists is that the HKDSE 2026 DAT SBA required students to make a  device for medication management and facilitation of medication taking.
