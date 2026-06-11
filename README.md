@@ -6,12 +6,19 @@ So here comes PillGuard, a pill dispenser that keeps track of and tells you when
 This is a completely open-source project. All the 3D parts and the BOM list are in the folders. You may customise my project. 
 
 ## How to build it
-Please print all the 3D parts. First, try placing the bottom part with the HC‑SR04 sensor in. Then place the middle part with the spinning system, the 28BYJ-48 Stepper Motor + ULN2003 Driver and another HC‑SR04 sensor. Last but not least, put the cover on top of the bottom part with the Nextion 5" HMI Touch Screen.
+Please print all the 3D parts. First, try placing the bottom part with the HC‑SR04 sensor in it. Then place the middle part with the spinning system, the 28BYJ-48 Stepper Motor + ULN2003 Driver and another HC‑SR04 sensor. Last but not least, put the cover on top of the bottom part with the 3.5-inch screen and Arduino Mega 2560.
 
 Instructions will be more detailed soon.
 
 # Wiring Diagram 
 <img width="5000" height="2852" alt="PillGuard Wiring Diagram" src="https://github.com/user-attachments/assets/5a294efe-fa0a-44d8-9e1d-460cd1e3fa5a" />
+
+Screen: Just follow the diagram.
+DS3231 RTC (Real-Time Clock): VCC -> Breadboard (+) Red Rail, GND -> Breadboard (-) Blue Rail, Trig -> Arduino Mega 2560 Pin 20, Echo -> Arduino Mega 2560 Pin 21
+HC-SR04(Cup Sensor): VCC -> Breadboard (+) Red Rail, GND -> Breadboard (-) Blue Rail, Trig -> Arduino Mega 2560 Pin 22, Echo -> Arduino Mega 2560 Pin 23
+HC-SR04(Pill Drop Sensor): VCC -> Breadboard (+) Red Rail, GND -> Breadboard (-) Blue Rail, Trig -> Arduino Mega 2560 Pin 24, Echo -> Arduino Mega 2560 Pin 25
+ULN2003(Steeper Motor Driver): VCC -> Breadboard (+) Red Rail, GND -> Breadboard (-) Blue Rail, IN1 -> Arduino Mega 2560 Pin 26, IN2 -> Arduino Mega 2560 Pin 27, IN3 -> Arduino Mega 2560 Pin 28, IN4 -> Arduino Mega 2560 Pin 29
+Buzzer: Positive(+) -> Arduino Mega 2560 Pin 30, Negative(-) -> Breadboard (-) Blue Rail
 
 ## Why this project actually exists
 The reason why this project exists is that the HKDSE 2026 DAT SBA required students to make a  device for medication management and facilitation of medication taking.
@@ -32,7 +39,7 @@ Guess how I made it. I made it by using Fusion 360, which is a completely free C
 <img width="1920" height="1080" alt="SBA_2026-Apr-05_04-36-30AM-000_CustomizedView2692837445_png" src="https://github.com/user-attachments/assets/dc42f173-fd3d-4094-821b-169f19203c84" />
 
 ## How to use it?
-The question you may ask is how do you use this pill dispenser? To use this dispenser, you must set a timer on the app and select which medicine you're having. For example, at 1 pm, I need to take 2 Panadol Pills. Then it will follow your instructions and do the task at 1 pm.
+The question you may ask is how to use this pill dispenser. To use this dispenser, you must set a timer on the app and select which medicine you're taking. For example, at 1 pm, I need to take 2 Panadol Pills. Then it will follow your instructions and do the task at 1 pm.
 
 ## Fallout Zine
 ![PillGuard Fallout Zine](https://github.com/user-attachments/assets/303d7f12-3a6c-406c-90b4-af13834227f8)
