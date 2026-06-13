@@ -51,4 +51,5 @@ Guess how I made it. I made it by using Fusion 360, which is a completely free C
 The question you may ask is how to use this pill dispenser. To use this dispenser, you must set a timer on the app and select which medicine you're taking. For example, at 1 pm, I need to take 2 Panadol Pills. Then it will follow your instructions and do the task at 1 pm.
 
 ## Fallout Zine
-![PillGuard Fallout Zine](https://github.com/user-attachments/assets/303d7f12-3a6c-406c-90b4-af13834227f8)
+<img width="4405" height="6250" alt="PillGuard Fallout Zine" src="https://github.com/user-attachments/assets/fa8dbed2-7933-4cdb-945a-c993d51f8881" />
+
